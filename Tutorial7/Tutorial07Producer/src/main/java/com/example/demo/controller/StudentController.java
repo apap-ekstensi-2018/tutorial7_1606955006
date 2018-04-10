@@ -1,4 +1,4 @@
-package com.example.controller;
+package com.example.demo.controller;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.example.model.StudentModel;
-import com.example.service.StudentService;
+import com.example.demo.model.StudentModel;
+import com.example.demo.service.StudentService;
 
 @Controller
 public class StudentController

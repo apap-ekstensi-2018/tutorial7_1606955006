@@ -1,4 +1,4 @@
-package com.example.dao;
+package com.example.demo.dao;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 
-import com.example.model.StudentModel;
+import com.example.demo.model.StudentModel;
 
 @Mapper
 public interface StudentMapper
