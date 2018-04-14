@@ -1,4 +1,4 @@
-package com.example.rest;
+package com.example.demo.service;
 
 import java.util.List;
 
@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 
 import com.example.demo.dao.StudentDao;
 import com.example.demo.model.StudentModel;
-import com.example.demo.service.StudentService;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -30,7 +29,7 @@ public class StudentServiceRest implements StudentService{
 	public List<StudentModel> selectAllStudents() {
 		// TODO Auto-generated method stub
 		log.info("REST - select all students");
-		return null;
+		return studentDao.selectAllStudents();
 	}
 
 	@Override
